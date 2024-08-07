@@ -93,10 +93,49 @@ print (x)
 x = "Python "
 y = "is "
 z = "awesome"
-print(x, y, z)
+print(x,y,z)
 print(x + y + z)
 
 e = 5
 f = "John"
 print(e, f)
+
+#Python - Global Variable
+#global Variable
+
+x = "awesome"
+
+def myfunc():
+    print("Python is " + x)
+
+myfunc()
+
+#Example:
+x = "awesome"
+
+def func():
+    x = "Fantastic"
+    print("Python is " + x)
+
+func()
+print("Python is " + x)
+
+
+#Global Keyword
+
+def function():
+    global x
+    x = "Fantastic"
+
+function()
+print("Python is " + x)
+
+x = "awesome"
+def testfunc():
+    global x
+    x = "Fantastic"
+
+testfunc()
+print("Python is " + x)
+
 
