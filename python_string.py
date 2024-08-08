@@ -89,6 +89,17 @@ print(txt)
 txt = f"The price is {20 * 49} dollars."
 print(txt)
 
+#Escape Characters
+txt = "We are the so-called \"Vikings\" from the north."
 
+#some Escape Characters
 
-
+# \' -> single Quote
+# \\ -> backslash
+#\n	-> New Line	
+#\r	-> Carriage Return	
+#\t	-> Tab	
+#\b	-> Backspace	
+#\f	-> Form Feed	
+#\ooo -> Octal value	
+#\xhh -> Hex value
