@@ -51,3 +51,44 @@ print(b[2:]) #slice to the End
 #Use the negative indexing
 
 print(b[-7:-2])
+
+
+
+#Upper case
+print(b.upper())
+
+#Lower case
+print(b.lower()) 
+
+#Remove whitespace
+print(b.strip())
+
+#Replace string
+print(b.replace("H", "J"))
+
+#Split string
+print(b.split(",")) #returns ['Hello', 'World!']
+
+#String Concatenate
+
+a = "Hello"
+b = "World!"
+c = a + b
+print(c)
+d = a + " " + b
+print(d)
+
+#String Formatting
+age = 20
+txt = f"My name is John, I am {age}"
+print(txt)
+
+price = 59
+txt = f"The price is {price:.2f} dollars."
+print(txt)
+txt = f"The price is {20 * 49} dollars."
+print(txt)
+
+
+
+
