@@ -37,3 +37,17 @@ print("expensive" not in txt)
 if "expensive" not in txt:
     print("No, 'expensive' is not present.")
 
+
+
+#Slicing Strings
+
+b = "Hello, World!"
+print(b[2:5]) #get character form position 2 to 5
+
+print(b[:5]) #get character form start to position 5
+
+print(b[2:]) #slice to the End
+
+#Use the negative indexing
+
+print(b[-7:-2])
